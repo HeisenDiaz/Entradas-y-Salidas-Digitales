@@ -57,4 +57,32 @@ Rangos de tensión indefinidos
 
 ## 7. Rangos de tensión indefinidos 
 
-- Pueden 
+- Pueden haber valores indefinidos de voltaje, lo cual puede llevar a:
+  - Nivel alto
+  - Nivel bajo
+  - Nivel indeterminado
+  - Oscilación
+    
+Para evitar los 2 ultimos, los microcontroladores incluyen un Schmitt Trigger (Comparador)
+
+## 8. Resistencias de pull
+
+- La mayoría de los microcontroladores cuentan con resistencias de pull-up o pull-down para facilitar el uso de interruptores externos en los pines de conexión de los puertos de entrada
+  - Se habilitan por medio de registros
+
+## 9. Salidas Digitales
+
+Maneja unos rangos y mínimos en la salida dependiendo de la familia de microcontrolador
+
+- Por ejemplo ATmega16:
+  - Máxima tensión en estado “low” es 0.7 V
+  - Mínima tensión en estado “high” es 4.2 V
+
+- En el caso de las salidas se recomiendo utilizar protecciones para evitar daños en los puertos
+
+### 9.1 Caracteísticas 
+
+- Si el registro DDR se configura como salida, se conecta el pin al registro PORT
+- Es más critico usar los pines como salidas que como entradas, ya que los microcontroladores no tienen protecciones internas
+- El diseñador debe establecer una estrategia de protección para que no se presenten cortos en los pines de salida
+- " Estado seguro de arranque "
