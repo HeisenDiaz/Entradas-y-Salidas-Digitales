@@ -48,3 +48,13 @@
     - Por ejemplo el PIC
 
 ## 6. Entradas Digitales
+
+Se usan para interpretar los niveles de tensión monitoreados (leídos) desde hardware interior: 
+  - 1 lógico corresponde a un nivel alto ("HIGH")
+  - 0 lógico corresponde a un nivel bajo ("LOW")
+
+Rangos de tensión indefinidos 
+
+## 7. Rangos de tensión indefinidos 
+
+- Pueden 
