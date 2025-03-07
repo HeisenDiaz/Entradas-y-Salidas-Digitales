@@ -86,3 +86,10 @@ Maneja unos rangos y mínimos en la salida dependiendo de la familia de microcon
 - Es más critico usar los pines como salidas que como entradas, ya que los microcontroladores no tienen protecciones internas
 - El diseñador debe establecer una estrategia de protección para que no se presenten cortos en los pines de salida
 - " Estado seguro de arranque "
+
+## 10. Conclusiones
+
+- Entender el valor que pueden tomar el tipo de señales digitales
+- Identificar la funcion de los puertos I/O y como se comunican con el exterior
+- Analizar sus aplicaciones industriales para controlar dispositivos como motores, sensores y pantallas mediante señales digitales. 
+  
