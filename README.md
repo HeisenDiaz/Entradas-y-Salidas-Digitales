@@ -91,5 +91,10 @@ Maneja unos rangos y mínimos en la salida dependiendo de la familia de microcon
 
 - Entender el valor que pueden tomar el tipo de señales digitales
 - Identificar la funcion de los puertos I/O y como se comunican con el exterior
-- Analizar sus aplicaciones industriales para controlar dispositivos como motores, sensores y pantallas mediante señales digitales. 
+- Analizar sus aplicaciones industriales para controlar dispositivos como motores, sensores y pantallas mediante señales digitales.
+
+## 11. Autores
+
+### Luis Fernando Pulido Salazar - 76257
+### Heisen Jawer Diaz Ascencio - 137604
   
